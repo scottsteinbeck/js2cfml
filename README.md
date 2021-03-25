@@ -1,8 +1,6 @@
-# js2php
+# js2cfml
 
-[![Build status](https://travis-ci.org/endel/js2php.svg?branch=master)](https://travis-ci.org/endel/js2php)
-
-JavaScript to CFML Script source-to-source transpiler. [Online demo](http://endel.github.io/js2php)
+JavaScript to CFML Script source-to-source transpiler.
 
 **This is an experiment. Please do not use it.**
 
