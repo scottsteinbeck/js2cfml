@@ -11,7 +11,7 @@ JavaScript to CFML Script source-to-source transpiler.
 
 ## Usage
 
-Convert a single JavaScript file into PHP:
+Convert a single JavaScript file into CFML:
 
 ```
 js2cfml examples/simple.js > simple.cfc
@@ -19,10 +19,6 @@ js2cfml examples/simple.js > simple.cfc
 
 Since `js2cfml` outputs the CFML code to stdout, you may run it right after
 conversion:
-
-```
-js2cfml examples/class.js | cfml
-```
 
 ## Features
 
@@ -110,7 +106,7 @@ What does it converts?
 
 ## Testing
 
-Tests are simple input (js) / output (php) comparisions.
+Tests are simple input (js) / output (cfml) comparisions.
 
 1. Create your source `.js` file at `test/fixtures/js_feature.js`
 2. Convert your `.js` to `.cfc` manually: `node test/generate.js js_feature.js`
